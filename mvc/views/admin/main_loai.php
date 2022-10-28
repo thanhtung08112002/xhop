@@ -22,7 +22,7 @@
         <button class="btn btn-primary btn-lg" type="submit" name="btn_insert">
           Thêm
         </button>
-        <a class="btn btn-secondary btn-lg" href="admin-danh-sach-loai?status=active">Danh sách loại</a>
+        <a class="btn btn-secondary btn-lg" href="admin-danh-sach-loai">Danh sách loại</a>
       </form>
  
     </div>

@@ -108,7 +108,7 @@ function save_edit_list($data = [])
     $sql = "UPDATE `hang_hoa` SET `ten_hh` = ?, `don_gia` = ?, `giam_gia` = ?, `hinh` =  ?, `ma_loai` = ?,`dac_biet`=?,`ngay_nhap` = ?,  `mo_ta` = ? WHERE `hang_hoa`.`ma_hh` = ?";
     $stmt = $conn->prepare($sql);
     if ($stmt->execute($data)) {
-        header("Location: admin?status=active");
+        header("Location: admin");
     }
 }
 

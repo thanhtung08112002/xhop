@@ -17,7 +17,7 @@ function loai_insert($data = [])
     $sql = "INSERT INTO `loai`( `ten_loai`) VALUES (?)";
     $stmt = $conn->prepare($sql);
     $stmt->execute($data);
-    header("Location: ?ctr=admin-danh-sach-loai&status=active");
+    header("Location: ?ctr=admin-danh-sach-loai");
 }
 //delete loai
 function loai_delete($id)

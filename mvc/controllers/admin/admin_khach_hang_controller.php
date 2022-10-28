@@ -3,7 +3,7 @@ function list_khach_hang()
 {
 
 
-    if (isset($_GET['status'])) {
+    if (isset($_SESSION['email'])) {
         $danh_muc_khach_hang =  danh_muc_khach_hang();
         render_layout_admin("main_khach_hang", ['danh_muc_khach_hang' => $danh_muc_khach_hang]);
     } else {
@@ -19,7 +19,7 @@ function delete_khach_hang($id)
     }
     extract($img_khach_hang);
     khach_hang_delete($id, $hinh);
-    header("Location: admin?ctr=admin-khach-hang&status=active");
+    header("Location: admin?ctr=admin-khach-hang");
 }
 
 function edit_khach_hang($id)

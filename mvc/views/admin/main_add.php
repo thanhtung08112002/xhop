@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <button class="btn btn-primary btn-lg" type="submit" name="btn_insert">Thêm</button>
-                        <a class="btn btn-secondary btn-lg" href="admin?status=active">Danh sách</a>
+                        <a class="btn btn-secondary btn-lg" href="admin">Danh sách</a>
                     </form>
                 </div>
             </div>

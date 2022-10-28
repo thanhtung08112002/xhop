@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <button class="btn btn-primary btn-lg" type="submit" name="btn_insert">Lưu</button>
-                <a class="btn btn-secondary btn-lg" href="admin?status=active">Trở lại</a>
+                <a class="btn btn-secondary btn-lg" href="admin">Trở lại</a>
             </form>
         </div>
     </div>

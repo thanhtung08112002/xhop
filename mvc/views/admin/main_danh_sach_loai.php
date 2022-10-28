@@ -28,8 +28,8 @@
         </tbody>
       </table>
       <hr>
-      <a class="btn btn-primary btn-lg add" href="admin-loai?status=active">Thêm loại</a>
-      <a class="btn btn-primary btn-lg add" href="admin-add?status=active">Thêm sản phẩm</a>
+      <a class="btn btn-primary btn-lg add" href="admin-loai">Thêm loại</a>
+      <a class="btn btn-primary btn-lg add" href="admin-add">Thêm sản phẩm</a>
 
     </div>
   </div>

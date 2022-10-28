@@ -43,7 +43,7 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="submit" class="btn btn-success btn_save " value="Lưu">
-                                        <a class="btn btn-success btn_sign-up " href="admin-khach-hang?status=active" style="font-size: 18px;height: 4rem;line-height:3rem">Trở lại</a>
+                                        <a class="btn btn-success btn_sign-up " href="admin-khach-hang" style="font-size: 18px;height: 4rem;line-height:3rem">Trở lại</a>
                                     </div>
                                 </form>
 

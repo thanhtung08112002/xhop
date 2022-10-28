@@ -26,12 +26,12 @@
                                 <td><?= $item['noi_dung'] ?></td>
                                 <td><?= $item['ngay_bl'] ?></td>
                                 <td>
-                                    <a href="delete-binh-luan?id=<?= $item['ma_bl'] ?>&ma_hh=<?= $item['ma_hh'] ?>&status=active" class="btn btn-delete btn-danger" onclick="return confirm('Bạn có chắc chắn không?');">Xóa</a>
+                                    <a href="delete-binh-luan?id=<?= $item['ma_bl'] ?>&ma_hh=<?= $item['ma_hh'] ?>" class="btn btn-delete btn-danger" onclick="return confirm('Bạn có chắc chắn không?');">Xóa</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
                     </tbody>
-                    <a href="admin-thong-ke?status=active"  class="btn btn-delete btn-danger">Trở lại</a>
+                    <a href="admin-thong-ke"  class="btn btn-delete btn-danger">Trở lại</a>
                 </table>
                 <hr>
             </div>

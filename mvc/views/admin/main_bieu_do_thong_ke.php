@@ -28,7 +28,7 @@
                     chart.draw(data, options);
                 }
             </script>
-            <a class="btn btn-primary btn-lg thong_ke" href="admin-thong-ke?status=active">Xem bảng thống kê</a>
+            <a class="btn btn-primary btn-lg thong_ke" href="admin-thong-ke">Xem bảng thống kê</a>
         </div>
     </div>
 </article>

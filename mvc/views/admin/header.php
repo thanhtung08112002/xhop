@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-xl-2 col-lg-2 col-md-3 col-md-3 col-sm-4 col-xs-5">
                         <div class="header_logo">
-                            <a href="admin?status=active"><img src="./public/images/xshop.png" alt="" /></a>
+                            <a href="admin"><img src="./public/images/xshop.png" alt="" /></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-xs-7">
@@ -36,10 +36,10 @@
                     <div class="col">
                         <nav class="header_nav">
                             <ul>
-                                <li><a href="admin?status=active">Trang chủ</a></li>
-                                <li><a href="admin-loai?status=active">Loại hàng</a></li>
-                                <li><a href="admin-khach-hang?status=active">Khách hàng</a></li>
-                                <li><a href="admin-thong-ke?status=active">Thống kê</a></li>
+                                <li><a href="admin">Trang chủ</a></li>
+                                <li><a href="admin-loai">Loại hàng</a></li>
+                                <li><a href="admin-khach-hang">Khách hàng</a></li>
+                                <li><a href="admin-thong-ke">Thống kê</a></li>
                                 <li><a href="logout">Thoát</a></li>
                             </ul>
                         </nav>

@@ -29,7 +29,7 @@ function handle_delete_binh_luan($id, $ma_hh){
     $sql = "DELETE FROM binh_luan WHERE ma_bl = $id" ;
     $stmt = $conn->prepare($sql);
     if($stmt->execute()){
-        header("Location: thong-ke-binh-luan-chi-tiet?id=$ma_hh&status=active");
+        header("Location: thong-ke-binh-luan-chi-tiet?id=$ma_hh");
     }
 }
 

@@ -31,7 +31,7 @@
           </tbody>
         </table>
         <hr>
-        <a class="btn btn-primary btn-lg thong_ke" href="admin-thong-ke?id=bieu_do_danh_muc&status=active">Xem biểu đồ thống kê danh mục</a>
+        <a class="btn btn-primary btn-lg thong_ke" href="admin-thong-ke?id=bieu_do_danh_muc">Xem biểu đồ thống kê danh mục</a>
       </div>
     </div>
     <div class="article_admin_thong_ke_binh_luan">
@@ -55,7 +55,7 @@
                 <td> <?= $i++ ?></td>
                 <td><?= $item['ma_hh'] ?></td>
                 <td><?= $item['ten_hh'] ?></td>
-                <td><a href="thong-ke-binh-luan-chi-tiet?id=<?= $item['ma_hh'] ?>&status=active" class="btn btn-delete btn-danger">Chi tiết</a>
+                <td><a href="thong-ke-binh-luan-chi-tiet?id=<?= $item['ma_hh'] ?>" class="btn btn-delete btn-danger">Chi tiết</a>
                   
                 </td>
               </tr>

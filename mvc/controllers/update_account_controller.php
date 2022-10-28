@@ -1,6 +1,6 @@
 <?php
 function update_account() {
-    if (isset($_GET['status'])) {
+    if (isset($_SESSION['email'])) {
        render('update_account');
     }else{
         header('Location: error-not-found');

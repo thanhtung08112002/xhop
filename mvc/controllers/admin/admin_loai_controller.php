@@ -1,6 +1,6 @@
 <?php
 function show_admin_loai() {
-    if (isset($_GET['status'])) {
+    if (isset($_SESSION['email'])) {
         render_layout_admin("main_loai");
     }else{
         header('Location: error-not-found');
@@ -18,5 +18,5 @@ function admin_danh_sach_loai() {
 
 function delete_loai($id){
     loai_delete($id);
-    header("Location: add-loai?ctr=admin-danh-sach-loai&status=active");
+    header("Location: add-loai?ctr=admin-danh-sach-loai");
 }

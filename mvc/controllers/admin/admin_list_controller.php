@@ -1,7 +1,7 @@
 <?php
 function show_admin_list()
 {
-    if (isset($_GET['status'])) {
+    if (isset($_SESSION['email'])) {
         $hang_hoa_new = hang_hoa_new();
         render_layout_admin("main_list", ['hang_hoa_new' => $hang_hoa_new]);
     }else{
@@ -20,7 +20,7 @@ function delete_hang_hoa($id)
     }
     extract($img_hang_hoa);
     hang_hoa_delete($id,$hinh);
-    header("Location: admin?status=active");
+    header("Location: admin");
 }
 function edit_hang_hoa($id)
 {

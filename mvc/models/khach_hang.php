@@ -44,7 +44,7 @@ function search_user($valueCheck, $user_form, $pass_form)
         }
     }
     if ($flag == true && $_SESSION['vai_tro'] == '1') {
-        header("Location: admin?status=active");
+        header("Location: admin");
     } else  if ($flag == true && $_SESSION['vai_tro'] != '1') {
         show_home();
     } else {
@@ -100,7 +100,7 @@ function save_edit_khach_hang($data = [], $hinh)
     $sql = "UPDATE `khach_hang` SET `hinh` =  ?, `vai_tro` = ? WHERE `khach_hang`.`ma_kh` = ?";
     $stmt = $conn->prepare($sql);
     if ($stmt->execute($data)) {
-        header("Location: admin-khach-hang?status=active");
+        header("Location: admin-khach-hang");
     }
 }
 
