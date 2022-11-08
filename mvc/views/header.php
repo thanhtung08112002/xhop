@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./public/css/clients/list_products_detail.css">
     <link rel="stylesheet" href="./public/css/clients/update_account.css">
     <link rel="stylesheet" href="./public/css/clients/responsive.css" />
-    <title><?= $_GET['ctr']?></title>
+    <title><?= !isset($_GET['ctr']) ? 'home' : $_GET['ctr'] ?></title>
 </head>
 
 <body>
@@ -59,8 +59,8 @@
             </div>
             <div class="header_search-input">
                 <form action="search-products" method="GET">
-                    <input type="text" placeholder="Tìm kiếm" name="value_search"/>
-                    <button type='submit'><i  class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Tìm kiếm" name="value_search" />
+                    <button type='submit'><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
         </header>
