@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./public/css/clients/list_products_detail.css">
     <link rel="stylesheet" href="./public/css/clients/update_account.css">
     <link rel="stylesheet" href="./public/css/clients/responsive.css" />
-    <title>Document</title>
+    <title><?= $_GET['ctr']?></title>
 </head>
 
 <body>
