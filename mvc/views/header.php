@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./public/css/clients/main_home.css">
     <link rel="stylesheet" href="./public/css/clients/sidebar.css">
     <link rel="stylesheet" href="./public/css/clients/footer.css">
+    <link rel="stylesheet" href="./public/css/clients/contact.css">
     <link rel="stylesheet" href="./public/css/clients/sign_up.css">
     <link rel="stylesheet" href="./public/css/clients/get_pass.css">
     <link rel="stylesheet" href="./public/css/clients/product_detail.css">

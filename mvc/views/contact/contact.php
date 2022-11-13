@@ -1,55 +1,34 @@
-        <section class="form_contact">
-          <div class="row">
-            <div class="col">
-              <div class="form_contact-title">
-                <h2>Liên hệ</h2>
-                <p>
-                 Hãy liên hệ với chúng tôi 
-                </p>
-              </div>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <form action="" onsubmit="return validate()">
-                <div class="form_group">
-                  <label for="chosse">topic</label>
-                  <select name="chosse" id="choose" >
-                    <option value="">chosse</option>
-                    <option value="sunscreen">sunscreen</option>
-                    <option value="facewash">facewash</option>
-                    <option value="lotion">lotion</option>
-                  </select>
-                  <span class="error"></span>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
                 </div>
-                <div class="form_group form_group-detail">
-                  <div class="form_group-name">
-                    <label for="username">name</label>
-                    <input type="text" name="username" placeholder="name" id="name" oninput="onin(this,1)"/>
-                    <span class="error"></span>
-                  </div>
-                  <div class="form_group-email">
-                    <label for="email">e-mail</label>
-                    <input type="email" name="email" placeholder="email" id="email" oninput="onin(this,2)"/>
-                    <span class="error"></span>
-                  </div>
-                </div>
-                <div class="form_group">
-                  <label for="message">message</label>
-                  <textarea name="message" id="message" cols="30" rows="10" oninput="onin(this,3)"></textarea>
-                  <span class="error"></span>
-                </div>
-                <div id="location"></div>
-                <div class="btn">
-                  <input type="submit" name="btn-submit" value="SEND" id="submit"/>
-                  <input
-                    type="button"
-                    name="btn-location"
-                    value="LOCATION-NOW"
-                    onclick="getLocation(this)"
-                  />
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
+            </form>
+</div>
