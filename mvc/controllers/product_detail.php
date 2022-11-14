@@ -15,7 +15,8 @@ function product_detail_id_and_name($id, $views, $loai)
         $views, $id
     ];
     $data_loai = [
-        $loai
+        $loai,
+        $id
     ];
     get_product_with_id($data_id, $data_views, $data_loai);
 }

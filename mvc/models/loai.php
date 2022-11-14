@@ -27,6 +27,7 @@ function loai_delete($id)
     $stmt = $conn->prepare($sql);
     $stmt->execute();
 }
+
 function get_products_alike($id)
 {
     $conn = connection();

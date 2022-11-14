@@ -130,7 +130,7 @@ function get_product_with_id($data_id = [], $data_views = [], $data_loai = [])
     $result_comment = $stmt_comment->fetchAll(PDO::FETCH_ASSOC);
 
 
-    $sql_alike = "SELECT so_luot_xem,ma_hh,ten_hh, hh.ma_loai, `ten_loai` FROM `hang_hoa` hh join `loai` l on hh.ma_loai = l.ma_loai WHERE hh.ma_loai = ?";
+    $sql_alike = "SELECT so_luot_xem,ma_hh,ten_hh, hh.ma_loai, `ten_loai` FROM `hang_hoa` hh join `loai` l on hh.ma_loai = l.ma_loai WHERE hh.ma_loai = ? and hh.ma_hh != ?";
     $stmt_loai = $conn->prepare($sql_alike);
     $stmt_loai->execute($data_loai);
     $result_loai = $stmt_loai->fetchAll(PDO::FETCH_ASSOC);

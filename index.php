@@ -167,14 +167,14 @@ switch ($ctr) {
         $ten_hh = $_GET['value_search'];
         search_products($ten_hh);
         break;
-        //đang xử lý
     case "update-account":
         update_account();
         break;
     case "check-update-account":
         check_update_account();
         break;
-        //đang xử lý
+
+    
     default:
         error_404_show();
 }
